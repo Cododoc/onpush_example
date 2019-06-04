@@ -1,0 +1,2 @@
+<input type="text" class="form-control" id="newTodo" required [maxlength]="25" [(ngModel)]="newTodo"
+    [ngClass]="setCssValidityClass(newTodoCtrl)" #newTodoCtrl="ngForm">
